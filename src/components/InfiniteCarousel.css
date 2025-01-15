@@ -12,7 +12,7 @@
 
 	width: 100%;
 	height: 187px;
-	padding: 0 135px;
+	padding: 0 180px;
 
 	display: flex;
 	align-items: center;
@@ -37,7 +37,7 @@
 
 .gradient {
 	position: absolute;
-	width: calc(100% - (135px * 2));
+	width: calc(100% - (180px * 2));
 	height: 100%;
 
 	background-image: linear-gradient(

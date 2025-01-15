@@ -33,6 +33,10 @@ button {
 	transition: border-color 0.25s;
 }
 
+a {
+	text-decoration: none;
+}
+
 @media (prefers-color-scheme: light) {
 	:root {
 		color: #213547;

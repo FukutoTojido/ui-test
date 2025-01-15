@@ -1,6 +1,6 @@
 .moduleOne {
 	width: 100%;
-	padding: 100px 135px;
+	padding: 100px 180px;
 
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
