@@ -1,0 +1,9 @@
+.arrow {
+	aspect-ratio: 1 / 1;
+	border-radius: 9999px;
+}
+
+.arrow > img {
+    width: 100%;
+	aspect-ratio: 1 / 1;
+}
