@@ -17,10 +17,6 @@
 	flex-direction: column;
 }
 
-a:visited {
-	color: inherit;
-}
-
 .randomPromotion {
 	width: 100%;
 	padding: 17px 0;
@@ -34,6 +30,32 @@ a:visited {
 	background-color: #cbfc01;
 
 	font-weight: 700;
+	font-size: 1rem;
+}
+
+.randomPromotion:hover {
+	color: black;
+}
+
+.randomPromotion:visited {
+	color: black;
+}
+
+.button {
+	background-color: #cbfc01;
+	border-radius: 9999px;
+	color: black;
+	font-weight: 700;
+	font-size: 1.25rem;
+}
+
+button {
+	appearance: none;
+	border: none;
+}
+
+button:focus {
+	outline: none;
 }
 
 * {

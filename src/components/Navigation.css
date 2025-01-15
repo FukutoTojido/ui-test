@@ -1,0 +1,44 @@
+.header {
+	width: 100%;
+	height: 160px;
+	padding: 0 135px;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	font-size: 1.25rem;
+}
+
+.navigation {
+	display: flex;
+	gap: 44px;
+	flex: 1;
+}
+
+.navItem {
+	color: black;
+	font-weight: 500;
+}
+
+.navItem:hover {
+	color: black;
+}
+
+.buttonWrapper {
+	flex: 1;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.header .button {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+
+	padding: 12.5px 20px;
+}
+
+.header .button > span {
+	width: 125px;
+}

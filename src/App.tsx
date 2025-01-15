@@ -1,5 +1,6 @@
 import "./App.css";
 import Arrow from "./components/Arrow";
+import Navigation from "./components/Navigation";
 
 function App() {
 	return (
@@ -8,6 +9,7 @@ function App() {
 				<span>In condimentum dignissim felis</span>
 				<Arrow type="Outlined" size={24} />
 			</a>
+			<Navigation />
 		</div>
 	);
 }
