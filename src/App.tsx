@@ -1,6 +1,7 @@
 import "./App.css";
 import Arrow from "./components/Arrow";
 import Banner from "./components/Banner";
+import InfiniteCarousel from "./components/InfiniteCarousel";
 import Navigation from "./components/Navigation";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
 			</a>
 			<Navigation />
 			<Banner />
+			<InfiniteCarousel />
 		</div>
 	);
 }
