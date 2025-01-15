@@ -2,6 +2,7 @@ import "./App.css";
 import Arrow from "./components/Arrow";
 import Banner from "./components/Banner";
 import InfiniteCarousel from "./components/InfiniteCarousel";
+import ModuleOne from "./components/ModuleOne";
 import Navigation from "./components/Navigation";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
 			<Navigation />
 			<Banner />
 			<InfiniteCarousel />
+			<ModuleOne />
 		</div>
 	);
 }
