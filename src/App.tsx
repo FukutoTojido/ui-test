@@ -3,6 +3,7 @@ import Arrow from "./components/Arrow";
 import Banner from "./components/Banner";
 import InfiniteCarousel from "./components/InfiniteCarousel";
 import ModuleOne from "./components/ModuleOne";
+import ModuleTwo from "./components/ModuleTwo";
 import Navigation from "./components/Navigation";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
 			<Banner />
 			<InfiniteCarousel />
 			<ModuleOne />
+			<ModuleTwo />
 		</div>
 	);
 }
