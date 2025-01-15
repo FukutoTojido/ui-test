@@ -1,5 +1,6 @@
 import "./App.css";
 import Arrow from "./components/Arrow";
+import Banner from "./components/Banner";
 import Navigation from "./components/Navigation";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
 				<Arrow type="Outlined" size={24} />
 			</a>
 			<Navigation />
+			<Banner />
 		</div>
 	);
 }

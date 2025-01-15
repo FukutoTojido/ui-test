@@ -32,11 +32,13 @@
 }
 
 .header .button {
+    height: 65px;
+    
 	display: flex;
 	align-items: center;
 	gap: 10px;
 
-	padding: 12.5px 20px;
+	padding: 0 20px;
 }
 
 .header .button > span {
