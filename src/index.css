@@ -47,3 +47,26 @@ a {
 		background-color: #f9f9f9;
 	}
 }
+
+/*Scrollbar*/
+
+::-webkit-scrollbar {
+	width: 10px;
+	background-color: transparent;
+	/* display: none; */
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+	/* margin-top: 25px;
+	margin-bottom: 25px; */
+	visibility: 0;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+	background: gray;
+	border-radius: 10px;
+}
