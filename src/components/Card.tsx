@@ -19,7 +19,7 @@ export default function Card({
 				<div className="heading">{heading}</div>
 				<div className="text">{text}</div>
 			</div>
-			{buttonText ? <div className="buttonText">{buttonText}</div> : ""}
+			{buttonText ? <button type="button" className="buttonText">{buttonText}</button> : ""}
 		</div>
 	);
 }
