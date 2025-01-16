@@ -1,6 +1,7 @@
 import "./App.css";
 import Arrow from "./components/Arrow";
 import Banner from "./components/Banner";
+import Contact from "./components/Contact";
 import InfiniteCarousel from "./components/InfiniteCarousel";
 import ModuleFour from "./components/ModuleFour";
 import ModuleOne from "./components/ModuleOne";
@@ -22,6 +23,7 @@ function App() {
 			<ModuleTwo />
 			<ModuleThree />
 			<ModuleFour />
+			<Contact />
 		</div>
 	);
 }
