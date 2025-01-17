@@ -9,6 +9,7 @@ import ModuleOne from "./components/ModuleOne";
 import ModuleThree from "./components/ModuleThree";
 import ModuleTwo from "./components/ModuleTwo";
 import Navigation from "./components/Navigation";
+import Phone from "./components/Phone";
 
 function App() {
 	return (
@@ -24,6 +25,7 @@ function App() {
 			<ModuleTwo />
 			<ModuleThree />
 			<ModuleFour />
+			<Phone />
 			<Contact />
 			<Footer />
 		</div>

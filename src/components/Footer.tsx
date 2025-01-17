@@ -17,7 +17,7 @@ const Menu = ({
 			<div className="items">
 				{items.map((item) => {
 					return (
-						<a href={item.url} key={item.url} className="item">
+						<a href={item.url} key={item.label} className="item">
 							{item.label}
 						</a>
 					);

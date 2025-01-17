@@ -31,8 +31,6 @@ const CarouselItem = ({
 };
 
 export default function ModuleThree() {
-	const swiper = useSwiper();
-
 	return (
 		<div className="moduleThree">
 			<div className="moduleWrapper">
@@ -79,12 +77,10 @@ export default function ModuleThree() {
 					<div className="navButtons">
 						<button
 							type="button"
-							onClick={() => swiper.slidePrev()}
 							className="swiper-button-prev"
 						/>
 						<button
 							type="button"
-							onClick={() => swiper.slideNext()}
 							className="swiper-button-next"
 						/>
 					</div>

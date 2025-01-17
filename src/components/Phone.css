@@ -1,0 +1,178 @@
+.phone {
+	width: 100%;
+	padding: 100px 180px 0;
+	background-color: #cbfc01;
+
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	gap: 30px;
+}
+
+.phone > .content {
+	grid-column: 1 / 6;
+	display: flex;
+	flex-direction: column;
+	gap: 17px;
+
+	color: black;
+}
+
+.phone > .content > .text {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+
+.phone > .content > .text > .heading {
+	font-size: 3rem;
+	font-weight: 700;
+	line-height: 56px;
+}
+
+.phone > .content > .text > .subText {
+	font-size: 1.25rem;
+	line-height: 30px;
+}
+
+.phone > .content > .menu {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	z-index: 99;
+}
+
+.phone > .content > .menu > .item {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	border-bottom: solid 1px black;
+	border-radius: 0;
+
+	font-size: 1.5rem;
+	font-weight: 500;
+	color: black;
+
+	background-color: transparent;
+	padding: 20px 24px;
+
+    transition: ease-in-out 200ms;
+}
+
+.phone > .content > .menu > .item > div:first-of-type {
+	flex: 1;
+	text-align: left;
+}
+
+.phone > .content > .menu > .item.active {
+	font-weight: 700;
+}
+
+.phone > .content > .menu > .item:last-of-type {
+	border-bottom: none;
+}
+
+.phone > .thePhone {
+	position: relative;
+
+	grid-column: 8 / 12;
+	width: 388px;
+	height: 732px;
+}
+
+.phone > .thePhone > .swiper {
+	height: 100%;
+	overflow: visible;
+}
+
+.phone > .thePhone > .swiper > .swiper-wrapper {
+	align-items: center;
+}
+
+.phone > .thePhone .swiper-slide {
+	width: 270px;
+	height: 500px;
+
+	opacity: 20%;
+
+	transition: ease-in-out 200ms;
+
+	display: flex;
+	justify-content: center;
+}
+
+.phone > .thePhone .swiper-slide-active {
+	width: 100%;
+	height: 100%;
+	opacity: 100%;
+}
+
+.phone > .thePhone .swiper-slide > img {
+	width: 270px;
+	height: 100%;
+
+	object-fit: cover;
+	transition: ease-in-out 200ms;
+
+	border-radius: 40px;
+	user-select: none;
+}
+
+.phone > .thePhone .swiper-slide-active > img {
+	width: 100%;
+	border-radius: 40px 40px 0 0;
+}
+
+.phone > .thePhone > .phoneFrame {
+	position: absolute;
+	bottom: 0;
+	left: -500%;
+	right: -500%;
+
+	margin-inline: auto;
+
+	z-index: 1;
+	user-select: none;
+	pointer-events: none;
+}
+
+.phone .swiper-button-prev {
+	position: absolute;
+	right: calc(100% + 47px);
+	top: 0;
+	bottom: 0;
+	margin: auto 0;
+
+	width: 60px;
+	height: 60px;
+
+	background-image: url(/arrow-light.svg);
+	background-position: center;
+	background-color: rgba(0 0 0 / 30%);
+	background-repeat: no-repeat;
+
+	border-radius: 9999px;
+	transform: rotate(180deg);
+
+	z-index: 2;
+}
+
+.phone .swiper-button-next {
+	position: absolute;
+	left: calc(100% + 47px);
+	top: 0;
+	bottom: 0;
+	margin: auto 0;
+
+	width: 60px;
+	height: 60px;
+
+	background-image: url(/arrow-light.svg);
+	background-position: center;
+	background-color: rgba(0 0 0 / 30%);
+	background-repeat: no-repeat;
+
+	border-radius: 9999px;
+	z-index: 2;
+}
