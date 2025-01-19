@@ -48,3 +48,20 @@
 	border-radius: 30px;
 	width: 100%;
 }
+
+@media screen and (max-width: 1440px) {
+	.moduleOne {
+		padding: 50px 30px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.moduleOne > .content {
+		align-items: center;
+		text-align: center;
+	}
+
+	.moduleOne > .content .heading {
+		font-size: 2rem;
+	}
+}

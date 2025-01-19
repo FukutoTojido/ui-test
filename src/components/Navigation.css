@@ -1,10 +1,10 @@
 .header {
 	position: sticky;
 	top: 0;
-	
+
 	width: 100%;
 	height: auto;
-	
+
 	padding: 55px 180px 42px;
 
 	display: flex;
@@ -15,6 +15,10 @@
 
 	background-color: white;
 	z-index: 9999;
+}
+
+.header .drawer {
+	display: none;
 }
 
 .navigation {
@@ -39,7 +43,7 @@
 }
 
 .header .button {
-    height: 65px;
+	height: 65px;
 
 	display: flex;
 	align-items: center;
@@ -50,4 +54,65 @@
 
 .header .button > span {
 	width: 125px;
+}
+
+@media screen and (max-width: 1440px) {
+	.header {
+		padding: 30px;
+	}
+
+	.navigation {
+		position: absolute;
+		top: 100%;
+		left: 0;
+
+		flex-direction: column;
+		gap: 0;
+		background-color: white;
+
+		width: 100%;
+
+		transition: ease-out 500ms;
+		overflow: hidden;
+	}
+
+	.navigation.closed {
+		max-height: 0;
+	}
+
+	.navigation.open {
+		max-height: 500px;
+	}
+
+	.navigation .navItem {
+		padding: 30px;
+	}
+
+	.header .drawer {
+		display: block;
+		height: 100%;
+		flex: 1;
+
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+	}
+
+	.header .drawer button {
+		background-color: transparent;
+		padding: 0;
+		height: 100%;
+	}
+
+	.header .buttonWrapper {
+		visibility: hidden;
+	}
+
+	.header .button {
+		display: none;
+	}
+
+	.header .button > span {
+		width: 0;
+	}
 }

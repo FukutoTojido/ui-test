@@ -136,3 +136,38 @@
 	color: black;
 	line-height: 25.5px;
 }
+
+@media screen and (max-width: 1440px) {
+	.contact .contactInput {
+		padding: 50px 30px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.contactInput > .content > .text > .heading {
+		font-size: 2.5rem;
+		line-height: normal;
+	}
+
+	.contact .contactInfo {
+		padding: 24px 30px;
+		flex-direction: column;
+		gap: 30px;
+		align-items: flex-start;
+	}
+
+	.contactInput form {
+		gap: 50px;
+	}
+
+	.contactInput form .inputs {
+		display: flex;
+		flex-direction: column;
+		gap: 21px;
+	}
+
+	.contactInput .button {
+		width: 100%;
+		justify-content: space-between;
+	}
+}

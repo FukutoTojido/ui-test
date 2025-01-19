@@ -1,10 +1,19 @@
+import { useState } from "react";
 import Arrow from "./Arrow";
 import "./Navigation.css";
 
 export default function Navigation() {
+	const [drawer, setDrawer] = useState(false);
+
 	return (
 		<div className="header">
-			<div className="navigation">
+			<div className="drawer">
+				<button type="button" onClick={() => setDrawer(!drawer)}>
+					<img src="/hamburger.svg" alt="" />
+				</button>
+			</div>
+
+			<div className={`navigation ${drawer ? "open" : "closed"}`}>
 				<a href="/#" className="navItem">
 					Home
 				</a>

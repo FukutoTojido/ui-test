@@ -58,7 +58,7 @@ export default function Phone() {
 					}}
 					direction="horizontal"
 					modules={[Navigation]}
-					// spaceBetween={30}
+					spaceBetween={30}
 					slidesPerView={1}
 					centeredSlides={true}
 					navigation={{
