@@ -8,3 +8,4 @@ npm i
 ```
 npm run dev
 ```
+The default URL should be `http://localhost:5173`
