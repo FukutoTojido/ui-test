@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import type { default as SwiperInstance } from "swiper";
 import { Navigation } from "swiper/modules";
+// @ts-ignore
 import "swiper/css";
 
 import Arrow from "./Arrow";

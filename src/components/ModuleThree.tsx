@@ -1,5 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
+// @ts-ignore
 import "swiper/css";
 
 import "./ModuleThree.css";
